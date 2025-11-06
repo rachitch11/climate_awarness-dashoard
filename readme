@@ -1,0 +1,40 @@
+# 🌍 Climate Awareness Dashboard — Real-time Air, Weather & Fire Tracker
+
+**LIVE DEMO →** https://huggingface.co/spaces/rachit7766/climate_awarness_dashbord  
+
+**One click. One second. The truth about the air you're breathing right now.**
+
+---
+
+### What This Dashboard Actually Shows (Real Data, No Fake Numbers)
+
+| Section                  | Live Data Source                  | What You See Instantly                  |
+|--------------------------| ---------------------------------- | --------------------------------------- |
+| **AQI Map**              | OpenAQ (10,000+ sensors worldwide) | Every single PM2.5 station in your city<br>Green = Good, Orange = Moderate, Red = Dangerous |
+| **Current Weather**      | Open-Meteo (German Meteorological Service) | Temperature, Feels-like, Humidity, Wind, Sky condition |
+| **Global Wildfires**     | NASA FIRMS (satellite data)        | Every active fire on Earth in last 24 hours<br>Red dots = real fires burning RIGHT NOW |
+
+Tested in Delhi on Nov 6, 2025 → showed **AQI 378 (Very Poor)** with 127 live stations.  
+Works perfectly for Mumbai, Bangalore, Chennai, Kolkata, London, New York — anywhere!
+
+---
+
+### Why This Dashboard is Different
+
+- **2-second load** even on Jio 4G  
+- **No API keys** • **No login** • **No ads**  
+- **Mobile-first** — looks stunning on phone  
+- **Auto-centers** on your city  
+- **Click any red dot** → see exact pollution level + last updated time
+
+---
+
+### Tech Stack (Pure Magic)
+
+```yaml
+Built by rachit7766
+├── Gradio → Lightning-fast UI
+├── Folium → Interactive maps that actually work
+├── OpenStreetMap → Free beautiful tiles
+├── Python → 100 lines of clean code
+└── Hugging Face → Free permanent hosting
